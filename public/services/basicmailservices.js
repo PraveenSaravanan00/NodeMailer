@@ -14,7 +14,7 @@ export const createMail = (data) => {
     //   console.log("transporter", transporter);
     const mailOptions = {
         from: process.env.EMAILID,
-        to: "saravananpraveen07@gmail.com,praveen.s@mitrahsoft.com",
+        to: "leninbevan.c@mitrahsoft.com",
         subject: "Sending email usng node js with nodemailer",
         text: "Hello praveen",
         html: `<h2 style="font-family: Arial; text-align: center;">Large HTML Table (100 Rows)</h2>

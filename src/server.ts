@@ -12,6 +12,15 @@ app.use(express.json())
 
 app.use("/api/v1",basicMail)
 
+
+app.get("/ping", (req, res) => {
+  res.send("pong");
+});
+
+
+
+
+
 app.listen(process.env.PORT,()=>{
     console.log("server listening port ",process.env.PORT)
 })
